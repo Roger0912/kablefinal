@@ -1,0 +1,101 @@
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(../font/HanyiSentyJournal.woff) format('woff'),
+    url(../font/HanyiSentyJournal.ttf) format('truetype'),
+    url(../font/HanyiSentyJournal.eot) format('embedded-opentype')
+    
+  }
+body
+{
+    background-image:url(../images/2021.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'HanyiSentyJournal';
+}
+div{
+
+    margin: 20px;
+}
+.A{
+    width: 50%;
+    margin: 20px auto;
+    columns: 2;
+}
+.kable{
+    font-size: 60px;
+    width: 10%;
+    text-align: left;
+    padding-top: 20px;
+    
+}
+.shop{
+    text-align: left;
+    font-size: 64px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    -webkit-column-break-before: always;
+    margin-left: -100px;
+}
+.B{
+    columns: 2;
+    border: 1px solid;
+    width: 50%;
+    margin: 20px auto;
+    
+}
+.t1{
+    text-align: left;
+    font-size: 27px;
+}
+.btn1{
+    -webkit-column-break-before: always;
+    padding-top: 60px;
+    font-size: 27px;
+    padding: 20px;
+    
+}
+.C{
+    columns: 3;
+    border: 1px solid;
+    width: 50%;
+    margin: 20px auto;
+}
+.t2{
+    -webkit-column-break-before: always;
+    padding-top: 60px;
+    text-align: left;
+    font-size: 27px;
+}
+.btn2{
+    -webkit-column-break-before: always;
+    padding-top: 60px;
+    font-size: 27px;
+    
+}
+.D{
+    margin: 20px auto;
+    width: 50%;
+    text-align: right;
+    font-size: 27px;
+}
+.E{
+    margin: 20px auto;
+    width: 50%;
+    text-align: right;
+    
+    
+
+}
+.kable{
+    transition: 0.5s;
+}
+.kable:hover{
+    font-size: 70px;
+    color: coral;
+    padding-top: 8px;
+}
+
+.back:visited,.back:link,.back:active{
+    color: black;
+    text-decoration: none;
+}

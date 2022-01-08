@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        @import url(CSS/A.css);
+        @import url(CSS/signin.css);
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        html,body{
+            height: 100%;
+        }
+        body
+        {
+            background-image:url(images/2021.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .signin
+        {
+            width: 700px;
+            height: 850px;
+            margin: 20px auto;
+        }
+        .btngroup{
+    font-size: 0;
+    margin-top: 20px;
+}
+.membersignin2{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="signin" id="signin">
+        <form class="form">
+            <h1 class="membersignin1">Kable</h1>
+            <h2 class="membersignin2">註冊會員</h2>
+            <div class="group">
+                <label for="userid">註冊帳號</label>
+                <input type="text" id="userid">
+            </div>
+            <div class="group">
+                <label for="userpass">註冊密碼</label>
+                <input type="text" id="userpass">
+            </div>
+            <div class="group">
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
+            </div>
+            <div class="group">
+                <label for="phone">手機</label>
+                <input type="text" id="phone">
+            </div>
+            <div class="btngroup">
+                <button class="btn"><a href="index.html" class="enter">取消</a></button>
+                <button class="btn"><a href="sign-in.html" class="enter">註冊</a></button>
+            </div>
+            <div class="signup1">
+               <a href="sign-in.html" class="enter">已經有帳號了嗎?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

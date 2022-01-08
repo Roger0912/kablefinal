@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <style>
+        @import url(CSS/A.css);
+        @import url(CSS/signin.css);
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        html,body{
+            height: 100%;
+        }
+        body
+        {
+            background-image:url(images/2021.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="signin" id="signin">
+        <form class="form">
+            <h1 class="membersignin1">Kable</h1>
+            <h2 class="membersignin2">登入會員</h2>
+            <div class="group">
+                <label for="userid">帳號</label>
+                <input type="text" id="userid">
+            </div>
+            <div class="group">
+                <label for="userpass">密碼</label>
+                <input type="password" id="userpass">
+            </div>
+            <div class="btngroup">
+                <button class="btn"><a href="index.html" class="enter">取消</a></button>
+                <button class="btn"><a href="index.html" class="enter">登入</a></button>
+            </div>
+            <div class="signup1">
+               <a href="setup.html"  class="enter">還沒有註冊帳號嗎?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

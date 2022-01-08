@@ -1,0 +1,65 @@
+.starBox{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 300px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.starBox .star{
+    color:#ccc;
+    font-size: 40px;
+    cursor: pointer;
+    margin:0 8px;
+}
+#star5:hover{
+    color:#F9F900;
+}
+#star4:hover{
+    color:#F9F900;
+}
+#star4:hover ~ #star5{
+    color:#F9F900;
+}
+
+#star3:hover{
+    color:#F9F900;
+}
+#star3:hover ~ #star4{
+    color:#F9F900;
+}
+#star3:hover ~ #star5{
+    color:#F9F900;
+}
+#star2:hover{
+    color:#F9F900;
+}
+#star2:hover ~#star3{
+    color:#F9F900;
+}
+#star2:hover ~ #star4{
+    color:#F9F900;
+}
+#star2:hover ~ #star5{
+    color:#F9F900;
+}
+
+
+
+
+#star1:hover{
+    color:#F9F900;
+}
+#star1:hover ~#star2{
+    color:#F9F900;
+}
+#star1:hover ~#star3{
+    color:#F9F900;
+}
+#star1:hover ~#star4{
+    color:#F9F900;
+}
+#star1:hover ~#star5{
+    color:#F9F900;
+}

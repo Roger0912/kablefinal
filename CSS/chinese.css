@@ -1,0 +1,71 @@
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(../font/HanyiSentyJournal.woff) format('woff'),
+    url(../font/HanyiSentyJournal.ttf) format('truetype'),
+    url(../font/HanyiSentyJournal.eot) format('embedded-opentype')
+}
+    
+.chinese{
+    text-align: center;
+    font-size: 80px;
+    font-family:'HanyiSentyJournal';
+    margin: 20px;
+    padding: 20px;
+}
+.chineseA{
+   margin: 20 auto;
+}
+.chinese1{
+    border: 1px solid black;
+    outline-style: solid;
+    margin: 20px auto;
+    width:1200px;
+    height:350px;
+    columns: 3;
+    column-gap: 50px;
+}
+.chinese2{
+    border: 1px solid black;
+    outline-style: solid;
+    width:1200px;
+    height:350px;
+    margin: 20px auto;
+    columns: 3 ;
+}
+.chinese3{
+    border: 1px solid black;
+    outline-style: solid;
+    width:1200px;
+    height:350px;
+    margin: 20px auto;
+    columns: 3  ;
+}
+.look1{
+    margin-top: 20px;
+    font-family:'HanyiSentyJournal';
+    font-size: 40px;
+}
+.teacher1A{
+    text-align: center;
+    padding-top: 20px;
+}
+.teacher1B{
+    -webkit-column-break-before: always;
+    
+}
+.teacher1C{
+    -webkit-column-break-before: always;
+    font-size: 40px;
+    font-family:'HanyiSentyJournal';
+}
+.teachername{
+    padding-top: 50px;
+    font-size: 26px; 
+}
+.teachercontext{
+    margin-top: 2px;
+}
+.look{
+    margin-top: 10px;
+    
+}

@@ -1,0 +1,104 @@
+
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(../font/HanyiSentyJournal.woff) format('woff'),
+    url(../font/HanyiSentyJournal.ttf) format('truetype'),
+    url(../font/HanyiSentyJournal.eot) format('embedded-opentype')
+  
+  }.main-footer .container{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    
+}
+.main-footer{
+    padding: 0px 0 0 0;
+    background:linear-gradient(-20deg,#FF8800,#FFBB00) ;
+    
+    
+}
+.footer-item{
+    width: 0;
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+}
+.footer-item h4{
+    font-size: 36px;
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    font-family:'HanyiSentyJournal';
+
+}
+.footer-item nav{
+    display: flex;
+    flex-direction: column;
+}
+.footer-item nav p{
+    color: #fff;
+    line-height: 1.4;
+    padding: 5px 0;
+    font-size: 30px;
+    font-family:'HanyiSentyJournal';
+}
+.copyright{
+    text-align: center;
+    margin: 80px 0 0;
+    padding: 10px 0px;
+    background-color:#CC6600 ;
+    color:#FFF;
+    width: 100%;
+    font-family:'HanyiSentyJournal';
+    font-size: 30px;
+}
+.icon{
+    position: absolute;
+    margin-left: 200px;
+    top: 40px;
+}
+.icon1{
+    position: absolute;
+    margin-left: 185px;
+    top: 40px;
+}
+.icon1:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}   
+.icon:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+.ideal,.goal,.aim,.window
+{
+    display: none;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 35px;
+    font-family:'HanyiSentyJournal';
+}
+.pideal,.pgoal,.paim,.pwindow
+{
+    transition: 0.5s;
+    padding: 0;
+    margin: 0;
+}
+.pideal:hover,.pgoal:hover,.paim:hover,.pwindow:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.back
+{
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    color: #fff;
+
+
+}
+

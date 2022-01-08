@@ -1,0 +1,56 @@
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(../font/HanyiSentyJournal.woff) format('woff'),
+    url(../font/HanyiSentyJournal.ttf) format('truetype'),
+    url(../font/HanyiSentyJournal.eot) format('embedded-opentype')
+}
+.wrap{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 1600px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    width: 768px;
+    margin:15px ;
+    display: flex;
+    background-color:rgba(255,255,255,.6) ;
+    border: 1px solid black;
+    box-shadow:0 10px 30px rgba(0,0,0,5) ;
+    font-family:'HanyiSentyJournal';
+}
+.item .pic{
+    width: 35%;
+}
+.item .pic img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.item .txt{
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item .txt h2{
+    font-weight: 500;
+    margin-bottom: .4em;
+    font-size: 40px;
+}
+.item .txt p{
+    font-weight: 300;
+    font-size: 30px;
+}
+.btn{
+    align-self:flex-end ;
+    padding: 10px;
+}

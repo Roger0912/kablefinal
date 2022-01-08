@@ -1,0 +1,33 @@
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(../font/HanyiSentyJournal.woff) format('woff'),
+    url(../font/HanyiSentyJournal.ttf) format('truetype'),
+    url(../font/HanyiSentyJournal.eot) format('embedded-opentype')
+  }
+
+.newteacher{
+    padding: 0;
+    text-align: center;
+    font-family:'HanyiSentyJournal';
+    font-size: 50px;
+    padding-top: 50px;
+    
+}
+.cntp1
+{
+    columns: 2;
+}
+.cntp2{
+    columns: 2;
+}
+.jj1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+    min-height: 220px;
+}
+.jjeed:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">    
+    <title>kable</title>
+    <style>
+        @import url(CSS/A.css);
+        @import url(CSS/B.css);
+        @import url(CSS/E.css);
+        @import url(CSS/c.css);
+        @import url(CSS/D.css);
+        body{
+            background-image:url(images/background.png);
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+        }
+    .imgslides img{
+        width: 100%;
+        cursor: grab;
+    }
+    </style>
+</head>
+<body>
+    <div class="all" id="back" style="max-width: 100%;overflow: hidden;">
+        <div class="A">
+            <div class="project">
+                <table>
+                <tr>
+                    <td class="pro1"><a href="chinese.html" target="_blank"  class="enter">國文家教</a></td>
+                    <td class="pro2"><a href="english.html" target="_blank"  class="enter">英文家教</a></td>
+                    <td class="pro3"><a href="math.html" target="_blank"  class="enter">數學家教</a></td>
+                    <td class="pro4"><a href="society.html" target="_blank"  class="enter">社會家教</a></td>
+                    <td class="pro5"><a href="nature.html" target="_blank"  class="enter">自然家教</a></td>
+                </tr>
+            </table>
+            </div>
+            <div class="kable" style="width: 50%;"><a href="index.html" class="enter">kable</a></div>
+            <div class="member">
+                <div class="search" style="width: 250px; margin-bottom: 20px;"><button type="submit"><img src="images/search.png" width="10px"></button><input type="search" placeholder="search.."></div>
+                <div style="width: auto; margin-left: 50px;"><a href="shop.html" class="enter"><img src="images/shop.png" alt="" width="50px"></a></div>
+                <div class="enter" style="width: auto; text-align: left; margin-left: -50px;"><a href="sign-in.html" class="enter">登入/註冊</a> </div>
+                <div class="aboutme" style="width: auto;text-align: left; margin-left: -80px;"><a href="aboutme.html"  class="aboutme">關於我們</a></div>
+                <div class="mymember" style="-webkit-column-break-before: always; margin-left: -110px; "><a href="newsignin.html"  class="mymember">會員專區</a></div>
+            </div>
+        </div>
+        <div class="B" >
+            <div class="top">TOP5</div>
+            <div class="topteacher">各科熱門老師</div>
+            <div class="imgslides">
+               <div><img src="images/Math teacher.png" height="600px"></div>
+               <div><img src="images/English teacher.jpeg" height="600px"></div>
+               <div><img src="images/Chinese teacher.png" height="600px"></div>
+               <div><img src="images/Science teacher.png" height="600px"></div>
+               <div><img src="images/Social teacher.png" height="600px"></div>
+              </div>
+        </div>
+        <div class="C">
+         <div class="newteacher"><h2>新老師加入</h2></div>
+         <div class="newteacher1" >
+             <div class="cntp1" style="columns: 2;">
+                <div class="ntp1"><img src="images/t1.jpg" onclick="jj1()" style="display:block; margin: auto;" width="300px" height="350px"  class="jjeed"></div>
+                <div class="jj1" id="jj1">
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">老師名字：段浩恩</div></div>
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">專業科目：國文</div></div>
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">個人介紹：我是白浩恩，不是黑浩恩</div></div>
+                </div>
+                <div class="ntp2" style="-webkit-column-break-before: always;"><img src="images/t2.jpg" style="display:block; margin: auto;" width="300px" height="350px" onclick="jj2()" class="jjeed"></div>
+                <div class="jj1" id="jj2">
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">老師名字：黃昱睿</div></div>
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">專業科目：國文</div></div>
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">個人介紹：我是黃昱睿，英文名稱黃蓋瑞</div></div>
+                </div>
+            </div>
+            <div class="cntp2" style="columns: 2;">
+                <div class="ntp3" style="margin-top: 60px;"><img src="images/t3.jpg" style="display:block; margin: auto;" width="300px" height="350px" onclick="jj3()" class="jjeed"></div>
+                <div class="jj1" id="jj3">
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">老師名字：侯文家</div></div>
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">專業科目：社會</div></div>
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">個人介紹：我是侯sir，為民喉舌</div></div>
+                </div>
+                <div class="ntp4" style="-webkit-column-break-before: always;margin-top: 60px;"><img src="images/t4.jpg" style="display:block; margin: auto;" width="300px" height="350px" onclick="jj4()" class="jjeed"></div>
+                <div class="jj1" id="jj4">
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">老師名字：陳品叡</div></div>
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">專業科目：英文</div></div>
+                    <div style="margin: 0 auto; width: 300px;"><div style="text-align: left;font-family:'HanyiSentyJournal';">個人介紹：我是品叡，品叡是我</div></div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div ></div>
+        <div class="D">
+          <div class="use"><h2>如何使用</h2></div>
+            <div class="use1">
+                <div class="n1"><img src="images/1.png" width="60px" height="60px"></div>
+                <div class="t1"> <h3>自選家教、溝通需求</h3> <p>依影片、喜好 、學生評價選擇老師並私訊老師溝通上課內容</p></div>
+                <div class="p1"></div>
+            </div>
+            <div class="use2">
+            <div class="n2"><img src="images/2.png" width="60px" height="60px"></div>
+            <div class="t2"> <h3>選擇時間、預約上課</h3><p>訂購課程後彈性選擇上課時間非常方便</p></div>
+            <div class="p2"></div>
+             </div>
+             <div class="use3">
+                <div class="n3"><img src="images/three.png" width="60px" height="60px"></div>
+                <div class="t3"> <h3>彈性地點、開啟課程</h3><p>不管何時何地，手機、電腦、平板皆可以在上課時間到使用不被時間空間限制</p></div>
+                <div class="p3"></div>
+             </div>
+
+        </div>
+        <div class="back">
+            <a href="#back"><img src="images/upload.png" width="80px" height="80px"></a>
+         </div>
+        <div class="main-footer">
+            <div class="container">
+               <div class="footer-item">
+                   <div class="icon"><img src="images/book (1).png" width="45px" height="45px"></div>
+                   <h4>關於kable課程</h4>
+                   <nav>
+                      <p class="pgoal" onclick="f1()">課程目標</p>
+                      <div class="goal" id="goal" >
+                          讓全天下的辛辛學子，都能變得跟許書瑜一樣帥！
+                      </div>
+                      <p class="pideal" onclick="f2()">教學理念</p>
+                      <div class="ideal" id="ideal">
+                          尋找最專業的教師，真正的線上互動實戰課程，在毫無壓力的學習氛圍下，讓不愛學習的孩子都能輕鬆學習。
+                      </div>
+                      <p class="paim" onclick="f3()">課程宗旨</p>
+                      <div class="aim" id="aim">
+                          個別指導幫孩子量身訂做上課進度，專注力與學習動力迅速上升，讓你的孩子愛上學習這件事。
+                      </div>
+                   </nav>
+               </div>
+               <div class="footer-item">
+                <div class="icon1"><img src="images/tool-box.png" width="45px" height="45px"></div>
+                   <h4>問題與幫助</h4>
+                   <nav>
+                      <p class="pwindow" onclick="f4()">聯絡窗口</p>
+                      <div class="window" id="window">
+                          <a href="mailto:613219@cyvs.tyc.edu.tw">613219@cyvs.tyc.edu.tw</a>
+                      </div>
+                   </nav>
+               </div>
+            </div>
+          <div class="copyright">
+              Copyright &copy;2021 劉建昱 許書瑜 黃品翰 張睿哲
+          </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="script/script.js"></script>
+    <script type="text/javascript">
+    $('.imgslides').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.imgslides').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+          });
+        });
+      </script>
+
+</body>
+</html>

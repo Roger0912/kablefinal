@@ -1,0 +1,19 @@
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(../font/HanyiSentyJournal.woff) format('woff'),
+    url(../font/HanyiSentyJournal.ttf) format('truetype'),
+    url(../font/HanyiSentyJournal.eot) format('embedded-opentype')
+  }
+.use{
+    text-align: center;
+    font-size: 50px;
+    font-family:'HanyiSentyJournal';
+    padding: 20px;
+}
+.use1,.use2,.use3{
+    text-align: center;
+    margin: 10px;
+    font-family:'HanyiSentyJournal';
+    font-size: 30px;
+    font-weight: normal;
+}
